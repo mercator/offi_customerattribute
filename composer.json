@@ -1,0 +1,12 @@
+{
+    "name": "mercator/offi_customerattribute",
+    "type": "magento-module",
+    "description": "Mercator repository for Offi_CustomerAttribute. Allows adding custom attributes to customers.",
+    "homepage": "https://github.com/mercator/offi_customerattribute",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "package-xml": "package.xml"
+    }
+}
