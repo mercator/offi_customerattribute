@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>offi_customer_attributes_manager</name>
+    <version>0.0.2</version>
+    <stability>beta</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OLS v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>a Customer Attributes Managers extension which can help developer manage attribute easily</summary>
+    <description>Purpose of Customer Attributes Manager extension is to help developer with customer attributes management easily&#xD;
+   - Add unlimited number of additional customer attributes&#xD;
+   - List all attributes in grid of admin&#xD;
+   - Ability to edit, drop attributes&#xD;
+   - Text field, text area, dropdown, multiple select and date field types are available&#xD;
+   - It is possible to export and import customer attributes using standard magento import/export functionality</description>
+    <notes>This extension still be in beta and need more any feedback</notes>
+    <authors><author><name>Hien Tran Quang</name><user>hientranquang</user><email>hientranquang83@gmail.com</email></author></authors>
+    <date>2012-04-04</date>
+    <time>03:28:29</time>
+    <contents><target name="magecommunity"><dir name="Offi"><dir name="CustomerAttribute"><dir name="Block"><dir name="Adminhtml"><dir name="Edit"><file name="Form.php" hash="41f9778d9f9b60a4dd9cd35d82f5b23d"/><dir name="Tab"><file name="Main.php" hash="19cb7a50c1bc23dbb1edba6a387f33c4"/><file name="Options.php" hash="79394498c5a57e615eafca374e1fe3c4"/><file name="System.php" hash="e73074852393cf91798e11700b2f2fbe"/></dir><file name="Tabs.php" hash="80fac38fe885e629370350a8f5bab11f"/></dir><file name="Edit.php" hash="2b95dfa926dc08f8daff63b3d56a9f3c"/><file name="Grid.php" hash="4c00330410c2a18ab2ba07df5b6d1c8c"/></dir></dir><dir name="Helper"><file name="Data.php" hash="b6ec9faffaaa19ca7784e4a29e50b091"/></dir><dir name="Model"><file name="Customerattribute.php" hash="5a58891b6ad3ba4430ecf9e50fbe8d73"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="699514ae7b849bfbc6fd17b5ecb6e6b2"/></dir></dir><dir name="etc"><file name="config.xml" hash="9990f5afad7ff793b2619242d98cfd07"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="customerattribute"><file name="grid.phtml" hash="6019c918f3e62fca8dea75c7870fefaf"/><file name="index.phtml" hash="d9d4ac780915862dfc27106934df0c05"/><file name="js.phtml" hash="ceaf55fd2d77b197df0e4205e0cd7b14"/><dir name="new"><file name="created.phtml" hash="6221466a0afd2af66521244391f000d1"/></dir><file name="options.phtml" hash="cfa077b54985e1f4687d2d42f0cd266a"/></dir></dir><dir name="layout"><file name="offi_customer_attribute.xml" hash="dd4f9e01fe78c8cb686bd6ba6d6b52f2"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Offi_CustomerAttribute.xml" hash="ddd11e5a7c024bda42d5239f49fb62a7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0.0</min><max>6.0.0.0</max></php></required></dependencies>
+</package>
